@@ -1,0 +1,92 @@
+.card {
+    width: 700px;
+    margin: 5px auto ;
+    padding-bottom: 10px;
+    background-color: #ced3d4;
+    border: none;
+    border-radius: 10px;   
+    box-shadow: 1px 1px 5px 2px black;
+}
+
+.form-control {
+    height: 80px;
+    font-size: 40px;
+    border: 3px solid transparent;
+    color: black;
+    font-weight: 900;
+    border-radius: 20px;
+}
+
+.form-control:focus {
+    border: 3px solid #365696;
+    outline: none;
+    box-shadow: none;
+}
+
+.caja {
+    margin: 10px 15px;
+    background-color: #ced3d4;
+}
+
+.caja .col input{
+    text-align: right;
+}
+
+.card-body {
+    padding: 0;
+    margin: 0px 10px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 5px 10px;
+    margin: 2px;
+}
+
+.btn {
+    margin: 7px 3px;
+    background-color: #365696;
+    border: black;
+    color: rgb(160, 157, 157);
+    font-weight: 900;
+    font-size: 30px;
+    border-radius: 30px;
+}
+
+.btn:hover {
+    background-color: #15387c;
+    color: white;
+    font-weight: 900;
+}
+
+
+.btn-c {
+    background-color: #99f7af;
+    border: #99f7af;
+}
+
+.btn-c:hover {
+    background-color: #90EE90;
+    border: #99f7af;
+}
+
+.btn-igual {
+    background-color: #fefb88;
+    border: #fefb88;
+}
+
+.btn-igual:hover {
+    background-color: #FFFF00;
+    border: #FFFF00;
+}
+
+.titulo {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+
+}

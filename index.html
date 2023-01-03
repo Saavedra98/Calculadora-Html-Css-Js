@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./estilos.css">
+    <title>Calculadora</title>
+
+</head>
+
+<body>
+
+    <p class=" text-center titulo">Calculadora</p>
+
+    <div class="card">
+        <div class="caja">
+            <div class="col">
+                <input type="text" class="form-control" id="txtNumero" placeholder="00">
+            </div>
+        </div>
+        <div class="card-body">
+
+            <div class="row">
+                <button type="button" class="btn " value="7" onclick="fnBoton(value)">7</button>
+                <button type="button" class="btn " value="8" onclick="fnBoton(value)">8</button>
+                <button type="button" class="btn " value="9" onclick="fnBoton(value)">9</button>
+                <button type="button" class="btn " value="+" onclick="fnBoton(value)">+</button>
+            </div>
+
+            <div class="row">
+                <button type="button" class="btn  " value="4" onclick="fnBoton(value)">4</button>
+                <button type="button" class="btn  " value="5" onclick="fnBoton(value)">5</button>
+                <button type="button" class="btn  " value="6" onclick="fnBoton(value)">6</button>
+                <button type="button" class="btn  " value="-" onclick="fnBoton(value)">-</button>
+            </div>
+
+            <div class="row">
+                <button type="button" class="btn " value="1" onclick="fnBoton(value)">1</button>
+                <button type="button" class="btn " value="2" onclick="fnBoton(value)">2</button>
+                <button type="button" class="btn " value="3" onclick="fnBoton(value)">3</button>
+                <button type="button" class="btn " value="*" onclick="fnBoton(value)">*</button>
+            </div>
+
+            <div class="row">
+                <button type="button" class="btn " value="0" onclick="fnBoton(value)">0</button>
+                <button type="button" class="btn " value="/" onclick="fnBoton(value)">/</button>
+                <button type="button" class="btn btn-c" value="C" onclick="limpiar()">C</button>
+                <button type="button" class="btn btn-igual" value="=" onclick="calcular()">=</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./main.js"></script>
+
+
+
+
+</body>
+
+</html>
